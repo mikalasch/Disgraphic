@@ -1,0 +1,493 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamonddisplay=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    box-sizing: border-box;
+    user-select: none;
+}
+  
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    background: rgb(255, 247, 231);
+    font-family: "Cormorant Garamond", serif;
+}
+
+header {
+    text-transform: uppercase;
+    background-color: rgba(31, 31, 31, 0.5);
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%;
+    width: 100%;
+    z-index: 3;
+    height: 7em;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: clamp(0.66rem, 2vw, 1rem);
+    letter-spacing: 0.5em;
+}
+
+.page{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.bouton{
+    width: 5vw;
+    height: 5vw;
+    min-width: 20px;
+    min-height: 20px;
+    max-width: 35px;
+    max-height: 35px;
+}
+
+.retour{
+    background: url(images/retour.svg)no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.reseaux{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+  
+.instagram{
+    background: url(images/insta.svg)no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+:hover.instagram{
+    background: url(images/instagram_hover.svg)no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.espace_vide{
+    height: 7em;
+    width: 100vw;
+    color: rgba(255,0,0,0);
+    font-size: clamp(0.66rem, 2vw, 1rem);
+}
+
+.haut_de_page{
+    display: flex;    
+    min-height: 140px;
+    max-height: 175px;
+    height: 50vw;
+    width: 100vw;
+    align-items: end;
+}
+
+.décor_haut_de_page{
+    display: none;
+}
+
+.logo{
+    margin: 0 auto;
+    width: 50vw;
+    height: 20vw;
+    min-height: 100px;
+    min-width: 200px;
+    max-width: 450px;
+    max-height: 150px;
+    background: url(projet_scoot/composant/logo.png)no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+@media(min-width:800px){
+    .décor_haut_de_page{
+        display: flex;
+    }
+
+    .arbre1{
+        margin-left: 5vw;
+        background: url(projet_scoot/composant/arbre.png)no-repeat;
+        background-size: cover;
+        background-position-y: top;
+        width: 125px;
+        height: 100px;
+        rotate: -3deg;
+    }
+
+    .medaille_feu{
+        margin-right: 5vw;
+        margin-bottom: 0.5em;
+        rotate: 15deg;
+        background: url(projet_scoot/composant/medaille_feu.png)no-repeat;
+        background-size: contain;
+        background-position-x: right;
+        width: 125px;
+        height: 100px;
+    }
+}
+
+.presentation{
+    overflow: hidden;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.contenu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: auto;
+    margin-top: 5vw;
+    width: 100%;
+}
+
+.bonhomme{
+    position: absolute;
+    z-index: 1;
+    min-width: 140px;
+    max-width: 170px;
+    height: 30vw;
+    background: url(projet_scoot/composant/bonhomme.png)no-repeat;
+    background-position-x: left;
+    background-size: contain;
+    min-height: 250px;
+}
+
+@media(max-width:399px){
+
+    .bonhomme{
+        margin-left: 7vw;
+    }
+
+}
+
+@media(min-width:1050px){
+
+    .bonhomme{
+        margin-left: 13vw;
+    }
+
+}
+
+
+.image_presentation{
+    width: 100%;
+    height: 45vh;
+    background: url(projet_scoot/image_presentation/visuel_situation.png)no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: cover;
+}
+
+.palette{
+    width: 100%;
+    background: url(projet_scoot/composant/palette.png)no-repeat;
+    background-position-y: top;
+    background-position-x: center;
+    background-size: cover;
+    height: 15vh;
+}
+
+.text{
+    margin-top: 5vw;
+}
+
+.arbre2{
+    width: 100px;
+    height: 80px;
+    background: url(projet_scoot/composant/arbre.png)no-repeat;
+    background-size: 80%;
+    background-position-x: center;
+    background-position-y: top;
+    rotate: -30deg;
+}
+
+.titre{
+    margin: 0 auto 1rem 5rem ;
+}
+
+h1{
+    font-family: 'dolly-new', sans-serif;
+    font-size: 1.5rem;
+    color: rgb(18, 18, 18);
+}
+
+.sponsor{
+    position: absolute;
+    text-align: center;
+}
+
+p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 1rem;
+    margin: 0 10rem 0 5rem;
+    color: #3b5826;
+}
+
+.main{
+    background: url(projet_scoot/composant/doight.png)no-repeat;
+    background-size: contain;
+    max-width: 400px;
+    max-height: 150px;
+    margin-top: -5%;
+    margin-right: -5%;
+    height: 25vh;
+    width: 15vh;
+    rotate: -55deg;
+    background-position: center;
+}
+
+.onepoint{
+    background: url(projet_scoot/composant/Onepoint.png)no-repeat;
+    background-size: 70%;
+    max-width: 400px;
+    max-height: 150px;
+    height: 10vh;
+    background-position: center
+}
+
+@media(max-width:799px){
+.test{
+    display: none;
+}
+}
+
+@media(min-width:800px){
+    .test{
+        margin: 5rem 0 5rem 10%;
+        width: 80vw;
+    }
+
+    .display{
+        height: 80vh;
+    }
+}
+
+@media(max-width:799px){
+    @media(min-width:400px){
+        .bonhomme{
+            margin-left: 22vw;
+            width: 50vw;
+        }
+    }
+
+    .contenu{
+        width: 100%;
+    }
+    .text{
+        width: 100%;
+    }
+
+    .main{
+        margin-left: 86%;
+    }
+
+    .sponsor{
+        width: 100%;
+    }
+    .onepoint{
+        margin: 8vw auto 0 auto;
+    }
+}
+
+@media(min-width:800px){
+    @media(max-width:1049px){
+        .bonhomme{
+            margin-left: 10vw;
+        }
+    }
+
+    .onepoint{
+        margin: 2.5vw auto 0 auto;
+    }
+
+    h1{
+        font-size: 3vw;
+    }
+    
+    p{
+        font-size: 1.75vw;
+    }
+
+    .main{
+        margin-left: 85%;
+    }
+
+    .bonhomme{
+        width: 50vw;
+    }
+    .contenu{
+        width: 50%;
+    }
+    .text{
+       width: 50%;
+    }
+
+    .sponsor{
+        margin-top: 0;
+        width: 50%;
+    }
+}
+
+h2{
+    color: rgb(18, 18, 18);
+    margin: 3rem 0 1.5rem 7rem;
+    width: 50%;
+    font-family: 'dolly-new', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    margin-top: 0;
+    margin-left: 7rem;
+    width: 70%;
+    color: rgb(18, 18, 18);
+    font-size: 1rem;
+}
+
+.demonstration{
+    padding: 0 5%;
+}
+
+.jeu{
+    background: url(projet_scoot/image_presentation/Mac_jeu_1.png)no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.phase1{
+    color: #3b5826;
+    padding: 2rem 0;
+    text-align: center;
+    margin: 0 0;
+}
+
+.solution{
+    background: url(projet_scoot/image_presentation/Mac_jeu_2.png)no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-left: 33%;
+}
+
+.phase2{
+    color: #3b5826;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.initiation{
+    background: url(projet_scoot/image_presentation/Mac_jeu_3.png)no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-left: 66%;
+}
+
+.phase3{
+    color: #3b5826;
+    padding: 2rem 0;
+    text-align: center;
+    margin: 0 0;
+}
+
+
+@media(max-width:799px){
+    .demonstration{
+        margin: 10vh 0;
+    }
+
+    .ordi{
+        margin: 0 auto;
+        width: 66%;
+        height: 40vw;
+    }
+}
+
+@media(min-width:800px){
+    .demonstration{
+        margin: 25vh 0;
+    }
+
+    .medaille_pensement{
+        position: absolute;
+        margin-top: -10vh;
+        margin-left: 72vw;
+        rotate: -35deg;
+        background: url(projet_scoot/composant/medaille_pensement.png)no-repeat;
+        background-size: contain;
+        background-position-x: right;
+        width: 12vw;
+        height: 12vw;
+    }
+
+    .ordi{
+        width: 33%;
+        height: 20vw;
+    }
+
+    .phase1{
+        margin-right: 66%;
+    }
+
+    .phase2{
+        margin: 0 33%;
+    }
+
+    .phase3{
+        margin-left: 66%;
+    }
+
+    .medaille_doight{
+        position: absolute;
+        margin-top: -15vh;
+        margin-left: 7vw;
+        rotate: -45deg;
+        background: url(projet_scoot/composant/medaille_doight.png)no-repeat;
+        background-size: contain;
+        background-position-x: right;
+        width: 12vw;
+        height: 12vw;
+    }
+}
+
+footer{
+    height: 30vh;
+    width: 100%;
+    padding: 0 35%;
+    padding-top: 5%;
+
+}
+
+.bouton_retour{
+    width: 100%;
+    height: 5vh;
+    padding-top: 0.75rem;
+    background: #3b5826;
+    color: rgb(255, 247, 231); 
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bolder;
+    border: none;
+    text-align: center;
+}
+
+:hover.bouton_retour{
+    opacity: 0.9;
+}
