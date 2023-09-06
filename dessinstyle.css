@@ -166,6 +166,10 @@ label{
     color: rgb(252, 252, 252);
 }
 
+.date{
+    display: none;
+}
+
 .reflet{
     z-index: 1;
     width: 100%;
