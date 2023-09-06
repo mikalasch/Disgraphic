@@ -157,6 +157,7 @@ h1{
 }
 
 h2{
+    display: none;
     font-weight: 200;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
