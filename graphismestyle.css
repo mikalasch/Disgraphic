@@ -196,7 +196,7 @@ p{
         overflow-x:scroll;
         scrollbar-color: rgb(232, 191, 40) rgba(255, 255, 255, 0);
         height: 90vw;
-        width: 70vw;
+        width: auto;
         margin: 0 auto;
     }
 
