@@ -76,19 +76,20 @@ header {
 @media (max-width:499px){
   section{
     height: 25vh;
-    
+    background-position: center;
   }
 }
 @media (min-width:500px){
 section{
   height: 100vh;
+  background-position-x: center;
   }
 }
 
 section{
   background-size: cover;
   background-repeat: no-repeat;
-  background-position-x: center;
+
 }
 
 .f1{
