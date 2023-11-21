@@ -99,7 +99,7 @@ button{
 }
 
 .f1{
-  cursor: none;
+  cursor:default;
   background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 100%), url(images/accueil.png);
 }
 
