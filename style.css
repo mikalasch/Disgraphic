@@ -77,7 +77,7 @@ header {
   section{
     height: 25vh;
     background-position: center;
-    margin-bottom: 0.05rem;
+    margin-bottom: 0.15rem;
   }
 }
 @media (min-width:450px){
