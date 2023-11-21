@@ -88,7 +88,7 @@ button {
 }
 
 :hover .button{
-  opacity: 0.9;
+  background-image:  rgba(0, 0, 0, 0.3) 100%, url(images/accueil.png);
 }
 
 
