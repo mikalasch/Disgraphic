@@ -76,7 +76,7 @@ header {
 
 section{
   height: 100vh;
-  background-size: contain;
+  background-size: contain, no-repeat;
 }
 
 .f1{
