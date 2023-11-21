@@ -73,13 +73,13 @@ header {
   font-size: clamp(0.66rem, 2vw, 1rem);
   letter-spacing: 0.5em;
 }
-@media (max-width:699px){
+@media (max-width:449px){
   section{
     height: 25vh;
     background-position: center;
   }
 }
-@media (min-width:700px){
+@media (min-width:450px){
 section{
   height: 100vh;
   background-position-x: center;
