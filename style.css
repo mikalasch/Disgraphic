@@ -26,6 +26,10 @@ h2 {
   letter-spacing: 0.5em;
   color: #cccccc;
   max-width: 1200px;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  margin: 0 auto;
 }
 .reseaux{
   display: flex;
