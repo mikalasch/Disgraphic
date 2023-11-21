@@ -87,8 +87,19 @@ button {
   }
 }
 
-:hover button{
-  background-color: rgba(0, 0, 0, 0.6) 0%;
+:hover .f1{
+  opacity: 0.9;
+}
+:hover .f2{
+  opacity: 0.9;
+}
+
+:hover .f3{
+  opacity: 0.9;
+}
+
+:hover .f4{
+  opacity: 0.9;
 }
 
 button{
