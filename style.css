@@ -94,6 +94,7 @@ button{
   background-repeat: no-repeat;
   width: 100vw;
   border: none;
+  cursor: pointer;
 }
 
 .f1{
