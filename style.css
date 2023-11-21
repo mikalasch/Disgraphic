@@ -88,6 +88,8 @@ button {
 }
 
 button{
+  flex-direction: column;
+  display: flex;
   background-size: cover;
   background-repeat: no-repeat;
 }
