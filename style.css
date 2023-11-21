@@ -74,38 +74,6 @@ header {
   letter-spacing: 0.5em;
 }
 
-section {
-  height: 100%;
-  width: 100%;
-  top: 0;
-  position: fixed;
-  visibility: hidden;
-}
-
-section .outer,
-section .inner {
-  width: 100%;
-  height: 100%;
-  overflow-y: hidden;
-}
-section .bg {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  background-size: cover;
-  background-position: center;
-}
-section .bg h2 {
-  z-index: 2;
-}
-section .bg .clip-text {
-  overflow: hidden;
-}
-
 .first .bg {
   background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 100%), url(images/accueil.png);
 }
@@ -122,10 +90,6 @@ section .bg .clip-text {
   background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 100%), url(images/graphisme.png);
 }
 
-.fifth .bg {
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 100%), url(https://images.unsplash.com/photo-1617141636403-f511e2d5dc17?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYxODAzMjc4Mw&ixlib=rb-1.2.1&q=75w=1920);
-  background-position: 50% 45%;
-}
 
 h2 * {
   will-change: transform;
