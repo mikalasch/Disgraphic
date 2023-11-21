@@ -87,11 +87,6 @@ button {
   }
 }
 
-:hover .button{
-  background-image:  rgba(0, 0, 0, 0.3) 100%, url(images/accueil.png);
-}
-
-
 button{
   flex-direction: column;
   display: flex;
