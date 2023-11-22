@@ -190,6 +190,11 @@ text{
 
 
 @media (min-width:700px) {
+
+    .mes_dessins{
+        margin-bottom: 1rem;
+    }
+
     label{
         height: 20vw;
     }
