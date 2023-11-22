@@ -20,6 +20,10 @@ body {
   text-transform: uppercase;
 }
 
+.screen{
+  height: 100vh;
+}
+
 h2 {
   font-size: clamp(1rem, 5vw, 5rem);
   font-weight: 400;
