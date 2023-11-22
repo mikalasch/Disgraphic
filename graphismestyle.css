@@ -151,16 +151,14 @@ label{
     background: linear-gradient(145deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 90%, rgb(223, 223, 223, 0.3) 100%); 
 }
 
-h1{
-
-    text-transform: uppercase;
-}
-
 h2{
-    display: none;
     font-weight: 200;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
+}
+
+h3{
+    display: none;
 }
 
 p{
