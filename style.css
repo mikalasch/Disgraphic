@@ -75,7 +75,7 @@ header {
   letter-spacing: 0.5em;
 }
 @media (max-width:449px){
-  h2{
+  .instruction{
     visibility: hidden;
   }
   button{
