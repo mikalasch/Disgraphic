@@ -75,6 +75,9 @@ header {
   letter-spacing: 0.5em;
 }
 @media (max-width:449px){
+  h2{
+    visibility: hidden;
+  }
   button{
     height: 25vh;
     background-position: center;
