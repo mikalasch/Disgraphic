@@ -16,8 +16,6 @@ body {
   height: 100vh;
   color: white;
   background: rgb(18, 18, 18);
-  font-family: "Cormorant Garamond", serif;
-  text-transform: uppercase;
 }
 
 h2 {
@@ -30,6 +28,8 @@ h2 {
   align-items: center;
   height: 100%;
   margin: 0 auto;
+  font-family: "Cormorant Garamond", serif;
+  text-transform: uppercase;
 }
 .reseaux{
   display: flex;
