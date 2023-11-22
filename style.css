@@ -20,10 +20,6 @@ body {
   text-transform: uppercase;
 }
 
-.screen{
-  height: 100vh;
-}
-
 h2 {
   font-size: clamp(1rem, 5vw, 5rem);
   font-weight: 400;
@@ -79,8 +75,9 @@ header {
   letter-spacing: 0.5em;
 }
 @media (max-width:449px){
-  body{
-    scroll-behavior: none;
+  .screen{
+    height: 100vh;
+    overflow: hidden;
   }
   .instruction{
     visibility: hidden;
