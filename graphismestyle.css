@@ -85,6 +85,10 @@ header {
     padding-bottom: 3rem;
 }
 
+.x{
+    padding-top: 5rem;
+}
+
 article{
     display: flex;
     flex-direction: row;
