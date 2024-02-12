@@ -166,6 +166,9 @@ p{
     font-weight: 200;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
+.mask{
+    display: none;
+}
 
 @media (max-width:699px) {
 
