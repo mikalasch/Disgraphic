@@ -208,6 +208,9 @@ p{
 
 
 @media (min-width:700px) {
+    .post{
+        margin-bottom: 2rem;
+    }
     label{
         height: 50vw;
     }
