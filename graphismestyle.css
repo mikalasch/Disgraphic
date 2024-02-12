@@ -85,10 +85,6 @@ header {
     padding-bottom: 3rem;
 }
 
-.x{
-    margin-top: 5rem;
-}
-
 article{
     display: flex;
     flex-direction: row;
@@ -175,7 +171,7 @@ p{
 
     .post{
         width: 80%;
-        margin: 0 auto;
+        margin: 0 auto 5rem auto;
     }
     
     label{
