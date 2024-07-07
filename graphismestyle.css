@@ -176,7 +176,7 @@ p{
     display: none;
 }
 .text{
-    padding-left: 5rem;
+    padding-right: 5rem;
 }
 
 @media (max-width:699px) {
