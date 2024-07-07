@@ -41,6 +41,10 @@ h2{
   margin: 0;
 }
 
+h3{
+  margin: 0.5rem 0 2rem;
+}
+
 .reseaux{
   display: flex;
   flex-direction: row;
