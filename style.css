@@ -31,6 +31,14 @@ h1 {
   font-family: "Cormorant Garamond", serif;
   text-transform: uppercase;
 }
+
+h2{
+  font-family: "Cormorant Garamond", serif;
+  text-transform: uppercase;
+  color: #cccccc;
+  letter-spacing: 0.25em;
+}
+
 .reseaux{
   display: flex;
   flex-direction: row;
@@ -124,7 +132,7 @@ button{
 }
 
 
-h2 * {
+h1 * {
   will-change: transform;
 }
 
