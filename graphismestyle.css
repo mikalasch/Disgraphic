@@ -235,6 +235,7 @@ p{
     }
 
     .text{
+        padding-top: 20vw;
         width: 66%;
     }
     h2,p{
