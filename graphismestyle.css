@@ -243,7 +243,7 @@ p{
 }
 
 @media (min-width:1000px) {
-article{
+.a1{
     margin-top: 2vw;
 }
 }
