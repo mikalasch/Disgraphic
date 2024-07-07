@@ -219,6 +219,7 @@ p{
 
     .p2{
         display: flex;
+        padding-bottom: 0;
     }
 
     .article2{
