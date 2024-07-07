@@ -175,6 +175,9 @@ p{
 .mask{
     display: none;
 }
+.text{
+    padding-left: 5rem;
+}
 
 @media (max-width:699px) {
 
