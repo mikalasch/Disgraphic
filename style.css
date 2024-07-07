@@ -138,4 +138,6 @@ h1 * {
 
 footer{
   display: none;
+  text-align: start;
+  padding-left: 1rem;
 }
