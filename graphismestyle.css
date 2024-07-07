@@ -215,6 +215,11 @@ p{
 @media (min-width:700px) {
     .post{
         margin-bottom: 2rem;
+        display: flex;
+    }
+
+    .article{
+        width: 33%;
     }
     label{
         height: 50vw;
@@ -225,6 +230,9 @@ p{
         height: 50vw;
     }
 
+    .text{
+        width: 66%;
+    }
     h2,p{
         margin-left: 10vw;
     }
