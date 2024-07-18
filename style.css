@@ -109,6 +109,10 @@ header {
     z-index: -1;
     position: absolute;
   }
+
+  .cellule{
+    
+  }
 }
 @media (min-width:450px){
 button {
