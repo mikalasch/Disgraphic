@@ -98,6 +98,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    padding: 35vh 0;
   }
   .instruction{
     visibility: hidden;
