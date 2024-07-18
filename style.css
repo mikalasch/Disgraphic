@@ -111,6 +111,8 @@ header {
   }
 
   .cellule{
+    background-color: #161616;
+    height: 5vh;
   }
 }
 @media (min-width:450px){
