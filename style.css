@@ -91,6 +91,18 @@ header {
   font-size: clamp(0.66rem, 2vw, 1rem);
   letter-spacing: 0.5em;
 }
+.f2{
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 100%), url(images/interface.png);
+}
+
+.f3{
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 90%), url(images/oeil_presentation.png);
+}
+
+.f4{
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 100%), url(images/graphisme.png);
+  margin-bottom: 0;
+}
 @media (max-width:449px){
   .screen{
     height: 100vh;
@@ -115,7 +127,6 @@ header {
   }
 
   .cellule{
-    background-color: #161616;
     height: 5vh;
   }
 
@@ -137,18 +148,6 @@ button {
   background-position-x: center;
   }
 
-  .f2{
-    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 100%), url(images/interface.png);
-  }
-  
-  .f3{
-    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 90%), url(images/oeil_presentation.png);
-  }
-  
-  .f4{
-    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 100%), url(images/graphisme.png);
-    margin-bottom: 0;
-  }
 }
 
 button{
