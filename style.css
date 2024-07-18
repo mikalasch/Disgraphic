@@ -45,7 +45,7 @@ h3{
   font-family: "Bebas Neue", sans-serif;
   color: #cccccc;
   margin: 0.5rem 0 2rem;
-  font-size: 0.75rem;
+  font-size: clamp(0.66rem, 2vw, 1rem);
   letter-spacing: 0.12rem;
 }
 
