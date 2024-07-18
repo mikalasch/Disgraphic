@@ -104,6 +104,9 @@ header {
     background-position: center;
     margin-bottom: 0.15rem;
   }
+  .f1{
+    height: 100vh;
+  }
 }
 @media (min-width:450px){
 button {
