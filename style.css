@@ -118,6 +118,10 @@ header {
     background-color: #161616;
     height: 5vh;
   }
+
+  :hover.f2{
+    
+  }
 }
 @media (min-width:450px){
 button {
