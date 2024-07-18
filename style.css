@@ -131,15 +131,15 @@ header {
   }
 
   :hover.f2{
-    height: 20vh;
+    height: 30vh;
   }
 
   :hover.f3{
-    height: 20vh;
+    height: 30vh;
   }
 
   :hover.f4{
-    height: 20vh;
+    height: 30vh;
   }
 }
 @media (min-width:450px){
