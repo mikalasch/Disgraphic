@@ -122,6 +122,14 @@ header {
   :hover.f2{
     height: 20vh;
   }
+
+  :hover.f3{
+    height: 20vh;
+  }
+
+  :hover.f4{
+    height: 20vh;
+  }
 }
 @media (min-width:450px){
 button {
