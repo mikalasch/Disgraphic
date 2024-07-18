@@ -147,5 +147,7 @@ h1 * {
 
 footer{
   text-align: start;
+  position: fixed;
   padding: 0 5%;
+  bottom: 0rem;
 }
