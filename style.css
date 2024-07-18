@@ -37,7 +37,7 @@ h2{
   text-transform: uppercase;
   color: #cccccc;
   letter-spacing: 0.25em;
-  font-size: 1rem;
+  font-size: clamp(0.8rem, 2.5vw, 1.25rem);
   margin: 0;
 }
 
