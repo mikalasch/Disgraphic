@@ -111,7 +111,11 @@ header {
   }
 
   .cellule{
-    
+    background: none;
+  }
+
+  .f4{
+    background-image: white;
   }
 }
 @media (min-width:450px){
