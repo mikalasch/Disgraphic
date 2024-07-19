@@ -97,7 +97,7 @@ header {
     width: 80%;
     background-color: #fdfdfd16;
     display: flex;
-    border-radius: 10px;
+    border-radius: 3px;
     overflow: hidden;
 }
 .image{
