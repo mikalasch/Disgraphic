@@ -129,18 +129,6 @@ header {
   .cellule{
     height: 5vh;
   }
-
-  :hover.f2{
-    height: 30vh;
-  }
-
-  :hover.f3{
-    height: 30vh;
-  }
-
-  :hover.f4{
-    height: 30vh;
-  }
 }
 @media (min-width:450px){
 button {
