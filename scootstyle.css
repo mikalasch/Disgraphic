@@ -356,8 +356,7 @@ h2{
 h3{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
-    margin-top: 0;
-    margin-left: 7rem;
+    margin: 1rem auto;
     width: 70%;
     color: rgb(18, 18, 18);
     font-size: 1rem;
