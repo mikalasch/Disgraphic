@@ -269,11 +269,12 @@ p{
 
 @media(min-width:800px){
     .test{
-        margin: 5rem 0 5rem 10%;
+        margin: 5rem 0 2rem 10%;
         width: 80vw;
     }
 
     .display{
+        margin-top: 0;
         height: 80vh;
     }
 }
