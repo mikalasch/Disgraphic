@@ -107,6 +107,7 @@ header {
   button{
     height: 25vh;
     background-position: center;
+    background-color: hsla(240, 5%, 12%,90%);
     margin-bottom: 0.15rem;
   }
   .f1{
