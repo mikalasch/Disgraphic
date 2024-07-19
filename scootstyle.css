@@ -361,6 +361,11 @@ h3{
     color: rgb(18, 18, 18);
     font-size: 1rem;
 }
+@media(min-width:758px){
+h3{
+    text-align: center;
+}
+}
 
 .demonstration{
     padding: 0 5%;
