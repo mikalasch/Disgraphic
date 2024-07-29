@@ -134,6 +134,12 @@ button {
     animation: survolprojet 0s 1.5s;
   }
   
+  @media (hover: hover) {
+    :hover {
+      color: black;
+      background: white;
+    }
+
   .f3{
     background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 90%), url(images/oeil_presentation.png);
   }
