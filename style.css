@@ -135,7 +135,7 @@ button {
   }
   
   @media (hover: hover) {
-    h1:hover {
+    .cellule:hover {
       color: black;
     }
 
