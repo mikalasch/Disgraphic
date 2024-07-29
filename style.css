@@ -135,9 +135,8 @@ button {
   }
   
   @media (hover: hover) {
-    .f2.f3.f4:hover {
+    h1:hover {
       color: black;
-      background: white;
     }
 
   .f3{
