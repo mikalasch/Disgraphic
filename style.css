@@ -136,6 +136,7 @@ button {
   
   @media (hover: hover) {
     .cellule:hover {
+      animation-delay: 5s;
       color: black;
       background-size: 200vh;
       background-position-y: center;
