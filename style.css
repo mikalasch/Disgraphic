@@ -1,0 +1,171 @@
+body{
+    margin: 0;
+    background: #F8FAFF;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.r{
+    background: url(images/image_de_vidéo_présentation.png)no-repeat;background-size: cover;background-position: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+menu{
+    height: 15vw;
+    width: 94vw;
+    min-height: 50px;
+    max-height: 5rem;
+    background-color: #F8FAFF96;;
+    padding: 0 3vw;
+    margin: 0;
+    justify-content: center;
+    display: flex;
+}
+
+blockquote{
+    min-width: 50px;
+    min-height: 50px;
+    margin: 0;
+}
+
+.logo_standard{
+    
+    background: url(logos/logo-disgraphic_standard.png);
+    background-size: cover;
+    background-position: center;
+    width: 15vw;
+    height: 15vw;
+    max-height: 5rem;
+    max-width: 5rem;
+}
+
+title{
+    color: #072448;
+    font-family: "Sail", system-ui;
+    display: flex;
+    font-size: clamp(2rem, 8vw, 5rem);   
+    margin-bottom: 1rem; 
+}
+.trans{
+    top: clamp(-1.5rem, -8vw, 8rem);
+}
+
+a{
+    text-decoration:none;
+}
+
+h2{
+    margin: 2vw 0;
+    color: #072448;
+    font-family: "Sail", system-ui;
+    display: flex;
+    font-size: clamp(2rem, 6.5vw, 4rem);
+}
+
+.frise{
+    background: url(éléments/frise.png)no-repeat;
+    background-size: clamp(80rem,300%,150rem), contain;
+    background-position: center;
+    width: 100vw;
+    position: relative;
+}
+
+.catégories{
+    padding: 5rem 5vw;
+}
+
+.cat{
+    width: 30vw;
+    min-width: 170px;
+    rotate: -8deg;
+
+}
+
+.haut{
+    top: -33px;
+    left: -1vw;
+
+}
+
+.bas{
+    bottom: -28px;
+}
+
+button{
+    background-color: #FFCB00;
+    border-radius: 0.25rem;
+}
+
+@media (max-width:449px){
+article{
+    height: 60vw;
+}
+
+.trans{
+    z-index: 1;
+    text-align: center;
+}
+
+.catégories{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h2{
+    justify-content: center;
+}
+
+    button{
+        margin: 2rem 0;
+        width: 95%;
+        border-radius: 0.75rem;
+        border-style: solid;
+        border-color: #FFCB00;
+    }
+}
+
+@media (min-width:450px){
+    article{
+        height: 75vh;
+    }
+
+   :hover .r{   background: url(éléments/video_présentation.gif)no-repeat;background-size: cover;background-position: center;}
+
+   .trans{
+    z-index: 1;
+    text-align: center;
+    }
+
+    .catégories{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    h2{
+        left: 2vw;
+        width: 90%;
+        position: relative;
+    }
+
+    .cat{
+        min-width: 133px;
+    }
+
+    .bas{
+    bottom: -3.5vw;
+    left: 13vw;
+    }
+
+:hover button{ cursor: pointer;}
+
+    button{
+    margin: 1.5rem 1vw;
+        flex-direction: column;
+        display: flex;
+        width: 43vw;
+        border: none;
+}
+}
