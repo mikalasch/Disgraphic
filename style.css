@@ -132,7 +132,7 @@ h2{
         height: 75vh;
     }
 
-   :hover .r{   background: url(éléments/video_présentation.gif)no-repeat;background-size: cover;background-position: center;}
+   :hover .r{   background: url(éléments/image_de_vidéo_présentation.png)no-repeat;background-size: cover;background-position: center;}
 
    .trans{
     z-index: 1;
