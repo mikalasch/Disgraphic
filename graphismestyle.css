@@ -1,0 +1,218 @@
+
+* {
+    box-sizing: border-box;
+    user-select: none;
+}
+  
+
+a {
+    color: #072448;
+    text-decoration: none;
+}
+
+body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    color: #072448;
+    background: #FFCB00;
+    font-family: "Sail", system-ui;
+}
+
+header {
+    text-transform: uppercase;
+    background-color: #F8FAFF;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+    width: 100%;
+    z-index: 3;
+    height: 7em;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: clamp(0.66rem, 2vw, 1rem);
+    letter-spacing: 0.5em;
+}
+
+.page{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.bouton{
+    width: 5vw;
+    height: 5vw;
+    min-width: 20px;
+    min-height: 20px;
+    max-width: 35px;
+    max-height: 35px;
+}
+
+.retour{
+    background: url(images/retour.svg)no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.reseaux{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+  
+.instagram{
+    background: url(images/insta.svg)no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+:hover.instagram{
+    background: url(images/instagram_hover.svg)no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.mes_graphismes{
+    padding-top: 15vh;
+    text-align: center;
+    width: 100vw;
+    height: 25vh;
+    font-size: clamp(1rem, 8vw, 5rem);
+    font-weight: 400;
+}
+
+.post{
+    background-color: #F8FAFF;
+    padding-bottom: 3rem;
+}
+
+article{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    gap: 0.5vw;
+}
+.image{
+    flex-shrink: 0;
+    z-index: 0;
+    width: 100%;
+}
+
+.i1{
+    background: url(images/couleur\ feu.PNG)no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.i2{
+    background: url(images/réaliste.PNG) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.i3{
+    background: url(images/noir\ et\ blanc.PNG) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+label{
+    z-index: 2;
+    margin: 0;
+    font-size: 12px;
+    font-family: "Bebas Neue", sans-serif;
+    display: flex;
+    padding-left: 1rem;
+    align-items: end;
+}
+
+.white{
+    color: #F8FAFF;
+}
+
+.reflet{
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(145deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 90%, rgb(223, 223, 223, 0.3) 100%); 
+}
+
+h2{
+    font-weight: 200;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+p{
+
+    font-weight: 200;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+@media (max-width:699px) {
+
+    .post{
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    label{
+        height: 87vw;
+    }
+    h1{
+        font-size:6vw;
+    }
+
+    h2{
+        font-size: 2.5vw;
+    }
+
+    p{
+        font-size: 2vw;
+    }
+
+    article{
+        overflow: hidden;
+        overflow-x:scroll;
+        scrollbar-color: #FFCB00 rgba(255, 255, 255, 0);
+        height: 90vw;
+        margin: 0 auto;
+    }
+
+    .allignement{
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+}
+
+
+@media (min-width:700px) {
+    label{
+        height: 50vw;
+    }
+
+    .image{
+        width: 33vw;
+        height: 50vw;
+    }
+
+    h1,h2,p{
+        margin-left: 10vw;
+    }
+}
+
+@media (min-width:1000px) {
+article{
+    margin-top: 2vw;
+}
+}
+
+footer{
+    height: 30vh;
+    width: 100%;
+}
