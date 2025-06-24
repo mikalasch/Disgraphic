@@ -93,6 +93,7 @@ header {
     background-color: #F8FAFF;
     display: flex;
     flex-direction: column;
+    border-radius: 5vw;
 }
 .image{
     width: 100%;
@@ -135,7 +136,6 @@ h2{
 }
 
 p{
-    width: 60vw;
     margin-left: 2rem;
     font-weight: 200;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
@@ -183,7 +183,6 @@ p{
 
     .text{
         padding: 2rem 1rem;
-        width: 30vw;
     }
     article{
         display: flex;
@@ -195,14 +194,10 @@ p{
 
     .allignement{
         margin-left: 1rem;
-        width: 25vw;
-        max-width: 300px;
     }
 
     
     .image{
-        width: 50vw;
-        max-width: 500px;
         height: 100%;
         max-height: 250px;
     }
