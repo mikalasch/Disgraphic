@@ -92,6 +92,7 @@ header {
     width: 80%;
     background-color: #F8FAFF;
     display: flex;
+    flex-direction: column;
 }
 .image{
     width: 100%;
