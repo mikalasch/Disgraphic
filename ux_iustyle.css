@@ -93,7 +93,7 @@ header {
     background-color: #F8FAFF;
     display: flex;
     flex-direction: column;
-    border-radius: 5vw;
+    border-radius: 1.5vw;
     overflow: hidden;
 }
 .image{
