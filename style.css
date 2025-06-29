@@ -74,6 +74,7 @@ h2{
 
 .catégories{
     padding: 10vw 5vw;
+    justify-content: center;
 }
 
 .cat{
