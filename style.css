@@ -164,6 +164,7 @@ h2{
         flex-direction: column;
         display: flex;
         width: 40vw;
+        min-width: 185px;
         border: none;
 }
 }
