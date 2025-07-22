@@ -127,7 +127,7 @@ h1{
 }
 
 .text{
-    padding-left: 5vw;
+   padding-left: max(10px, min(5vw, 40px));
 }
 
 h2{
