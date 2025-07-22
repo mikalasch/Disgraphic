@@ -145,7 +145,7 @@ p{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
-@media (max-width:799px) {
+@media (max-width:800px) {
 
     .image{
         height: 50vw;
