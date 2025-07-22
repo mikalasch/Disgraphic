@@ -63,6 +63,22 @@ h2{
     display: flex;
     font-size: clamp(2rem, 6.5vw, 4rem);
 }
+.ux_iu_design{
+    background: url(images/ux_présentation.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+ .dessins{
+    z-index: 1;
+    background: url(images/oeil_presentation.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.graphisme{
+    background: url(images/graphisme_présentation.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 
 .frise{
     background: url(éléments/frise.png)no-repeat;
