@@ -175,6 +175,8 @@ h2{
 
 :hover button{ cursor: pointer;}
 
+.i2 :hover {transform: rotateX(5deg) rotateY(5deg); scale:1.05; background-size: 125%;}
+
     button{
         margin: 1.5rem 1vw;
         flex-direction: column;
@@ -186,4 +188,3 @@ h2{
         transform-style: preserve-3d;
 }
 }
-:hover .i2{transform: rotateX(5deg) rotateY(5deg); scale:1.05;}
