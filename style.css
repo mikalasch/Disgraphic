@@ -176,10 +176,9 @@ h2{
 
 :hover button{ cursor: pointer;}
 
-.i1 :hover { background-size: 125%;}
-.i2 :hover { background-size: 125%;}
-.i3 :hover { background-size: 125%;}
-
+.i1 :hover:not(.frise) { background-size: 125%;}
+.i2 :hover:not(.frise) { background-size: 125%;}
+.i3 :hover:not(.frise) { background-size: 125%;}
 
     button{
         margin: 1.5rem 1vw;
