@@ -147,7 +147,7 @@ p{
 @media (max-width:800px) {
 
     .image{
-        height: 50vw;
+        height: 40vw;
     }
 
     .post{
@@ -167,8 +167,8 @@ p{
     }
 
     article{
-        height:75vw;
-        width: 80vw;
+    height: 60vw;
+    max-height: 450px;
     }
 }
 
