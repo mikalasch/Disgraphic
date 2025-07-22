@@ -184,6 +184,6 @@ h2{
         min-width: 185px;
         border: none;
         transition: transform 0.5s ease;
-        transform-style: preserve-3d;
+
 }
 }
