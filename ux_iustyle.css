@@ -129,6 +129,7 @@ h1{
 
 .text{
    padding-left: max(10px, min(5vw, 40px));
+   margin-top: max(3px, min(3vw, 60px));
 }
 
 h2{
