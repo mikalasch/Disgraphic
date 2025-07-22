@@ -69,7 +69,6 @@ h2{
     background-position: center;
 }
  .dessins{
-    z-index: 1;
     background: url(images/oeil_presentation.jpg)no-repeat;
     background-size: cover;
     background-position: center;
@@ -175,7 +174,7 @@ h2{
     }
 
 :hover button{ cursor: pointer;}
-:hover a{background-size: 125%;}
+:hover .dessins{background-size: 125%;}
 
     button{
     margin: 1.5rem 1vw;
