@@ -188,7 +188,7 @@ p{
         display: flex;
         flex-direction: row;
         height: 50vw;
-        max-height: 250px;
+        max-height: 500px;
         max-width: 800px;
     }
 
