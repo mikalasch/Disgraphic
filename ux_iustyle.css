@@ -96,18 +96,19 @@ header {
     border-radius: 1.5vw;
     overflow: hidden;
 }
-.image{
+
+.i1{
+    background: url(projet_scoot/image_presentation/visuel_situation.png)no-repeat;
     background-position-x: center;
     background-position-y: bottom;
     background-size: cover;
 }
 
-.i1{
-    background: url(projet_scoot/image_presentation/visuel_situation.png)no-repeat;
-}
-
 .i2{
     background: url(projet_skid/image_presentation/skip\ présentation.png)no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: cover;
 }
 
 .black{
