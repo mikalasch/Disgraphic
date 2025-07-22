@@ -97,19 +97,17 @@ header {
     overflow: hidden;
 }
 .image{
-    width: 100%;
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: cover;
 }
 
 .i1{
     background: url(projet_scoot/image_presentation/visuel_situation.png)no-repeat;
-    background-size: cover;
-    background-position: center;
 }
 
 .i2{
     background: url(projet_skid/image_presentation/skip\ présentation.png)no-repeat;
-    background-size: cover;
-    background-position: center;
 }
 
 .black{
@@ -127,6 +125,10 @@ h1{
 
 }
 
+.text{
+    padding-left: 5vw;
+}
+
 h2{
     margin:0;
     margin-left: 2rem;
@@ -137,7 +139,6 @@ h2{
 }
 
 p{
-    margin-left: 2rem;
     font-weight: 200;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
@@ -154,7 +155,6 @@ p{
 
     h1{
         font-size:4vw;
-        margin-left: 2rem;
     }
 
     h2{
