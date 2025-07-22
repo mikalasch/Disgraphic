@@ -25,6 +25,7 @@ menu{
 }
 
 blockquote{
+    transform-style: none;
     min-width: 50px;
     min-height: 50px;
     margin: 0;
@@ -175,7 +176,7 @@ h2{
 
 :hover button{ cursor: pointer;}
 
-.i2 :hover {transform: rotateX(5deg) rotateY(5deg); scale:1.05; background-size: 125%;}
+button :hover { background-size: 125%;}
 
     button{
         margin: 1.5rem 1vw;
@@ -185,6 +186,5 @@ h2{
         min-width: 185px;
         border: none;
         transition: transform 0.5s ease;
-        transform-style: preserve-3d;
 }
 }
