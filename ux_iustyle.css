@@ -92,8 +92,6 @@ header {
     margin-right: auto;
     width: 80%;
     background-color: #F8FAFF;
-    display: flex;
-    flex-direction: column;
     border-radius: 1.5vw;
     overflow: hidden;
 }
