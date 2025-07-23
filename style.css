@@ -178,6 +178,9 @@ h2{
 
 .i1 :hover:not(.frise) { background-size: 125%;}
 .i2 :hover:not(.frise) { background-size: 125%;}
+.i2{
+    transition: all 2s ease-in-out;
+}
 .i3 :hover:not(.frise) { background-size: 125%;}
 
     button{
