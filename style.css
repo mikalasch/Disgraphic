@@ -177,8 +177,8 @@ h2{
 :hover button{ cursor: pointer;}
 
 .i1 :hover:not(.frise) { background-size: 125%;}
-.i2 :hover:not(.frise) { background-size: 125%;}
-.i2{
+.graphisme :hover:not(.frise) { background-size: 125%;}
+.graphisme{
     transition: all 2s ease-in-out 10s;
 }
 .i3 :hover:not(.frise) { background-size: 125%;}
