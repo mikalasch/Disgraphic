@@ -176,9 +176,18 @@ h2{
 
 :hover button{ cursor: pointer;}
 
-.i1 :hover:not(.frise) { background-size: 125%;}
-.i2 :hover:not(.frise) { background-size: 125%;}
-.i3 :hover:not(.frise) { background-size: 125%;}
+.ux_iu_design:hover { background-size: 125%;}
+.ux_iu_design{
+    transition: all 5s ease-out 2s;
+}
+.dessins:hover { background-size: 125%;}
+.dessins{
+    transition: all 5s ease-out 2s;
+}
+.graphisme:hover { background-size: 125%;}
+.graphisme{
+    transition: all 5s ease-out 2s;
+}
 
     button{
         margin: 1.5rem 1vw;
@@ -187,6 +196,5 @@ h2{
         width: 40vw;
         min-width: 185px;
         border: none;
-        transition: transform 0.5s ease;
 }
 }
