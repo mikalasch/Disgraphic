@@ -117,10 +117,6 @@ button{
     transition: all 0.2s ease-in-out;
 }
 
-button:hover{
-     transform: scale(1.05) ;
-}
-
 @media (max-width:449px){
 article{
     height: 60vw;
@@ -179,8 +175,11 @@ h2{
     bottom: -3vw;
     left: 13vw;
     }
-
-:hover button{ cursor: pointer;}
+    
+    button:hover{
+     transform: scale(1.05);
+     cursor: pointer;
+    }
 
     button{
         margin: 1.5rem 1vw;
