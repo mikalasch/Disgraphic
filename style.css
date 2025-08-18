@@ -68,19 +68,16 @@ h2{
     background: url(images/ux_présentation.jpg)no-repeat;
     background-size: cover;
     background-position: center;
-        transition: all 5s ease-out 2s;
 }
  .dessins{
     background: url(images/oeil_presentation.jpg)no-repeat;
     background-size: cover;
     background-position: center;
-    transition: all 5s ease-out 2s;
 }
 .graphisme{
     background: url(images/graphisme_présentation.jpg)no-repeat;
     background-size: cover;
     background-position: center;
-    transition: all 5s ease-out 2s;
 }
 
 .frise{
@@ -116,6 +113,11 @@ h2{
 button{
     background-color: #FFCB00;
     border-radius: 0.25rem;
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover{
+     transform: scale(1.05) ;
 }
 
 @media (max-width:449px){
@@ -178,13 +180,6 @@ h2{
     }
 
 :hover button{ cursor: pointer;}
-
-
-.ux_iu_design:hover { background-size: 125%;}
-
-.dessins:hover { background-size: 125%;}
-
-.graphisme:hover { background-size: 125%;}
 
     button{
         margin: 1.5rem 1vw;
