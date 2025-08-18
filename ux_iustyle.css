@@ -94,6 +94,11 @@ header {
     background-color: #F8FAFF;
     border-radius: 1.5vw;
     overflow: hidden;
+    transition: all 0.2s ease-in-out;
+}
+
+.post:hover{
+ transform: scale(1.05);
 }
 
 .i1{
@@ -203,10 +208,6 @@ p{
 .post{
     max-width: 800px;
 }
-}
-
-:hover.post{
-    box-shadow: 1em 0 20px rgba(54, 54, 54, 0.25), -1em 0 20px rgba(54, 54, 54, 0.25);
 }
 
 footer{
