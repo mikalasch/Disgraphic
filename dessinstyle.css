@@ -31,7 +31,6 @@ header {
     height: 7em;
     font-family: "Bebas Neue", sans-serif;
     font-size: clamp(0.66rem, 2vw, 1rem);
-    text-transform: uppercase;
     letter-spacing: 0.5em;
 }
 
@@ -154,6 +153,10 @@ label{
     align-items: end;
 }
 
+time{
+    display: none;
+}
+
 .white{
     color: #F8FAFF;
 }
@@ -174,6 +177,9 @@ label{
         height: 50vw;
         margin-left: 10vw;
     }
+    mark{
+        margin-bottom: 2rem;
+    }
 }
 
 
@@ -186,11 +192,25 @@ label{
         width: 32.5vw;
         height: 20vw;
     }
+
+    mark{
+        margin-bottom: 1rem;
+    }
 }
 
 
 
 footer{
-    height: 30vh;
+    height: 25vh;
     width: 100%;
+    flex-direction: row;
+    display: flex;
+    align-items: end;
+}
+
+mark{
+    font-family: "Bebas Neue", sans-serif;
+    color: #072448;
+    margin-left: auto;
+    margin-right: auto;
 }
