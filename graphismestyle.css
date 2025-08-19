@@ -22,7 +22,7 @@ body {
 
 header {
     text-transform: uppercase;
-    background-color: #F8FAFF;
+    background-color: #f8faffe5;
     position: fixed;
     display: flex;
     align-items: center;
