@@ -97,11 +97,15 @@ header {
     height: 25vh;
     font-size: clamp(1rem, 8vw, 5rem);
     font-weight: 400;
+    margin-bottom: 2vw;
 }
 
 .post{
     background-color: #F8FAFF;
     padding-bottom: 3rem;
+    border-radius: 5vw;
+    overflow: hidden;
+     margin: 0 5vw;
 }
 
 article{
@@ -212,21 +216,14 @@ p{
     }
 
     .image{
-        width: 33vw;
+        width: 33%;
         height: 50vw;
     }
 
     h1,h2,p{
-        margin-left: 10vw;
+        margin: 2vw 10vw;
     }
 }
-
-@media (min-width:1000px) {
-article{
-    margin-top: 2vw;
-}
-}
-
 footer{
     height: 25vh;
     width: 100%;
