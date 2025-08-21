@@ -71,6 +71,7 @@ header {
     background: url(images/insta.svg)no-repeat;
     background-size: cover;
     background-position: center;
+    transition: transform 0.5s ease;
 }
 
 :hover.instagram{
@@ -81,7 +82,7 @@ header {
     max-width: 35px;
     max-height: 35px;
     background: url(images/instagram_hover.svg)no-repeat;
-    background-size: cover;
+    transform: scale(0.8);
     background-position: center;
 }
 
