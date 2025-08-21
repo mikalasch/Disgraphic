@@ -228,6 +228,16 @@ article{
 }
 
 footer{
-    height: 30vh;
+    height: 25vh;
     width: 100%;
+    flex-direction: row;
+    display: flex;
+    align-items: end;
+}
+
+mark{
+    font-family: "Bebas Neue", sans-serif;
+    color: #072448;
+    margin-left: auto;
+    margin-right: auto;
 }
