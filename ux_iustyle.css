@@ -134,7 +134,7 @@ header {
 }
 
 h1{
-    margin-bottom: max(3px, min(3vw, 35px));
+    margin-bottom: max(3px, min(3vw, 20px));
     font-family: "Sail", system-ui;
     font-size: 3.5vw;
 }
@@ -142,7 +142,7 @@ h1{
 .text{
    padding-left: max(10px, min(5vw, 40px));
    padding-right: max(10px, min(5vw, 40px));
-   margin-top: max(3px, min(3vw, 60px));
+   margin-top: max(3px, min(3vw, 25px));
 }
 
 h2{
