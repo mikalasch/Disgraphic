@@ -142,7 +142,6 @@ h1{
 .text{
    padding-left: max(10px, min(5vw, 40px));
    padding-right: max(10px, min(5vw, 40px));
-   margin-top: max(3px, min(3vw, 25px));
 }
 
 h2{
@@ -196,6 +195,10 @@ p{
 
     h1{
         margin-top: -0.5rem;
+    }
+
+    .text{
+        margin-top: max(3px, min(3vw, 25px));
     }
 
     article{
