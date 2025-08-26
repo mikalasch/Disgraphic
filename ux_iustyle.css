@@ -198,7 +198,7 @@ p{
     }
 
     .text{
-        margin-top: max(3px, min(3vw, 25px));
+        margin-top: max(2vw, 25px);
     }
 
     article{
